@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="form-container">
+        <div class="title">Create Account</div>
+        <form [formGroup]="signupForm">
+            <mat-form-field appearance="outline">
+                <mat-label>Enter your email</mat-label>
+                <input matInput  formControlName="email" />
+                <mat-error *ngIf="f['email'].hasError('required')">Email is required</mat-error>
+                <mat-error *ngIf="!(f['email'].hasError('valid'))">Please enter a valid email..</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Username</mat-label>
+                <input matInput formControlName="username" />
+                <mat-error *ngIf="f['username'].hasError('required')">username is required</mat-error>
+                <mat-error *ngIf="f['username'].hasError('minlength')">Please enter a valid username with 10 min characters..</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Enter your password</mat-label>
+                <input type="password" matInput formControlName="password" />                
+                <mat-error *ngIf="f['password'].hasError('required')">Password is required</mat-error>
+                <mat-error *ngIf="f['password'].hasError('minlength')">Please enter a valid Password with 8 min characters..</mat-error>
+            </mat-form-field>
+        </form>
+        <div class="buttons-container">
+            <button (click)="create()" [disabled]="!signupForm.valid" mat-raised-button class="signup-button">Create Account</button>
+            <p>OR</p>
+            <button routerLink="/login" mat-raised-button class="login-button">Login</button>
+        </div>
+    </div>
+</div>

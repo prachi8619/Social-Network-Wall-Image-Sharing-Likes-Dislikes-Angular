@@ -1,0 +1,10 @@
+<div class="nav-container">
+    <div class="branding">SBook</div>
+    <div class="account">
+        <button mat-icon-button [matMenuTriggerFor]="profileMenu"><mat-icon>account_circle</mat-icon>
+            <mat-menu #profileMenu>
+                <menu (click)="logout()" mat-menu-item>Logout</menu>
+              </mat-menu>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "email": "user1@fake.com",
+      "username": "FirstUser1",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "email": "user2@fake.com",
+      "username": "FirstUser2",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "email": "user3@fake.com",
+      "username": "FirstUser3",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "email": "NewUser@fake.com",
+      "username": "newuser123",
+      "password": "123456789",
+      "id": 4
+    },
+    {
+      "email": "user9@fake.com",
+      "username": "userninef9",
+      "password": "123456789",
+      "id": 5
+    },
+    {
+      "email": "qwerty@fake.com",
+      "username": "qwertyuiopas",
+      "password": "123456789",
+      "id": 6
+    },
+    {
+      "email": "qwerty123@fake.com",
+      "username": "asdfghjklpoiu",
+      "password": "123456789",
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "username": "FirstUser1",
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-83aa6.appspot.com/o/images%2F1652250688641?alt=media&token=9e83cf3c-a524-4b33-8743-eba5e82f5c8d",
+      "likes": [
+        3
+      ],
+      "comments": [],
+      "id": 1
+    },
+    {
+      "username": "FirstUser1",
+      "text": "",
+      "imageURL": "",
+      "likes": [],
+      "comments": [],
+      "id": 2
+    },
+    {
+      "username": "FirstUser1",
+      "text": "My beloved husband ",
+      "imageURL": "",
+      "likes": [],
+      "comments": [],
+      "id": 3
+    },
+    {
+      "username": "FirstUser3",
+      "text": "beautiful...... :)",
+      "imageURL": "",
+      "likes": [],
+      "comments": [],
+      "id": 4
+    },
+    {
+      "username": "userninef9",
+      "text": "today is beautiful !!",
+      "imageURL": "",
+      "likes": [],
+      "comments": [],
+      "id": 5
+    },
+    {
+      "username": "FirstUser3",
+      "text": "today is beatiful... !!",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-83aa6.appspot.com/o/images%2F1652299115626?alt=media&token=0a6653fe-8649-4ea2-8b24-fd6266892b6b",
+      "likes": [],
+      "comments": [],
+      "id": 6
+    }
+  ]
+}
